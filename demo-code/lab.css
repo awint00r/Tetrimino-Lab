@@ -10,3 +10,11 @@
 #piece-i .tet-group .tet-piece:nth-child(4) {
     order: -5;
 }
+
+
+#piece-s .tet-group:nth-child(1) {
+    order:1;
+}
+#piece-s .tet-group:nth-child(5) .inner-block:nth-child(3) {
+    order: -1;
+}
