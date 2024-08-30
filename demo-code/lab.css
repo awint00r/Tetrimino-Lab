@@ -1,1 +1,7 @@
+#piece-o div:last-child {
+    flex-direction: row-reverse;
+}
+#piece-o .tet-group:nth-child(5) {
+    order: -3;
 
+}
