@@ -5,3 +5,8 @@
     order: -3;
 
 }
+#piece-i .tet-group .tet-piece:nth-child(2),
+#piece-i .tet-group .tet-piece:nth-child(3),
+#piece-i .tet-group .tet-piece:nth-child(4) {
+    order: -5;
+}
