@@ -10,7 +10,7 @@ body {
     justify-content: center;
     text-align: center;
     text-justify:newspaper;
-    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Work Sans', sans-serif; */
     padding-bottom: 6rem;
 }
 
@@ -79,6 +79,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #adadad;
+    font-family: "Work Sans", sans-serif;
 }
 
 header a {
@@ -133,7 +134,7 @@ aside {
     padding: 3rem 1rem;
     z-index: 1000; /* Ensures it stays above other content */
     color: white;
-    font-family: "Work Sans", sans-serif;
+    /* font-family: "Work Sans", sans-serif; */
 }
 
 .active {
@@ -275,4 +276,6 @@ article {
     background-color: #F16EB9;
 }
 
-
+aside h2, h1 {
+    font-family: "Work Sans", sans-serif;
+}
