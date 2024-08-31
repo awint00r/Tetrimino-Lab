@@ -18,3 +18,15 @@
 #piece-s .tet-group:nth-child(5) .inner-block:nth-child(3) {
     order: -1;
 }
+
+#piece-z .tet-group:nth-child(1){
+    order: 1;
+}
+
+#piece-z .tet-group:nth-child(5) {
+    flex-direction: row-reverse;
+}
+#piece-z .tet-group:nth-child(5) .inner-block:nth-child(3) {
+    order: -1;
+}
+
